@@ -3,6 +3,7 @@
 file1="weather.json"
 file2="city.json"
 
+chmod +x weather.sh
 ./weather.sh Sochi
 
 if [[ ! -e $file1 || ! -e $file2 ]]
